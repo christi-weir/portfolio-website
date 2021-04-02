@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="114px" height="40px" viewBox="0 0 114 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#45CDDF" offset="0%"></stop>
+            <stop stop-color="#2CB3D4" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-30.8%" y="-30.8%" width="161.5%" height="161.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.107679283   0 0 0 0 0.51453253   0 0 0 0 0.61217731  0 0 0 0.484265734 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-190.000000, -3716.000000)">
+            <g id="Group-4" transform="translate(190.400000, 3716.400000)">
+                <g id="Group-3">
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="112.896" height="37.632" rx="4.032"></rect>
+                    <g id="Group-2" filter="url(#filter-2)" transform="translate(7.392000, 6.048000)">
+                        <circle id="Oval" fill="#E7A91E" cx="12.768" cy="12.768" r="12.768"></circle>
+                        <circle id="Oval-Copy" fill="#FFBB22" cx="12.768" cy="12.768" r="10.8528"></circle>
+                    </g>
+                    <text id="g" font-family="Domus-Semibold, Domus" font-size="18.816" font-weight="400" letter-spacing="0.433359861" fill="#FFF3D7">
+                        <tspan x="15.792" y="22.024">g</tspan>
+                    </text>
+                </g>
+                <text id="goald" font-family="Domus-Semibold, Domus" font-size="22.848" font-weight="400" letter-spacing="-0.452977133" fill="#FFFFFF">
+                    <tspan x="47.712" y="26.36">goald</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
