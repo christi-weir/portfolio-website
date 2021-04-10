@@ -86,7 +86,7 @@ a:focus {
   /* Layout Stylings */
 }
 .container {
-  padding: 0 50px;
+  padding: 0 15px;
 }
 #work .row {
   margin: 25px 0;
@@ -169,7 +169,3 @@ footer {
   padding: 0 15px;
   color: #4a4a4a;
   width: 50
-}
-.project {
-  padding: 50px 50px;
-}
