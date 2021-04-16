@@ -149,6 +149,7 @@ footer {
   background-color: #ffffff;
   text-align: center;
   width: 100%;
+
 }
 .button-contact {
   background-color: transparent;
@@ -166,6 +167,7 @@ footer {
 }
 .social {
   text-align: center;
+  padding-top: 50px;
 }
 .social a {
   display: inline-block;
