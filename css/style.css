@@ -56,6 +56,12 @@ body {
   flex: 50%;
   padding: 20px;
 }
+#about .my-photo {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+}
 @media only screen and (min-width: 1440px) {
   .row {
     display: flex;
@@ -65,6 +71,12 @@ body {
     flex: 50%;
     padding: 20px;
   }
+}
+#about .my-photo {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
 }
 h1, h2, h3, h4 {
   line-height: 1.4;
@@ -201,7 +213,6 @@ nav>ul>li>a:hover, nav>ul>li>a:focus {
   opacity: 0.8;
   text-decoration: none;
 }
-
 #hero {
   background-color: #ffffff;
   padding: 20px 0;
@@ -399,8 +410,9 @@ h2 {
 .say_hi:hover {
   animation: none;
 }
-.my_photo {
-  width: 50%;
-  padding:200px;
-  align:center;
+#about .my-photo {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
 }
