@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>behance-logo</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-759.000000, -172.000000)" fill="#4E4E4E" fill-rule="nonzero">
-            <g id="behance-logo" transform="translate(759.000000, 172.000000)">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.52">
+        <g id="Artboard" transform="translate(-727.000000, -172.000000)" fill="#3E8071" fill-rule="nonzero">
+            <g id="behance-logo" transform="translate(727.000000, 172.000000)">
                 <path d="M28.9745678,28.5267315 C28.9745678,25.1303939 26.6639386,25.1303939 26.6639386,25.1303939 L25.440491,25.1303939 L17.1577289,25.1303939 L17.1577289,32.418046 L26.0746803,32.418046 C27.6155908,32.4173095 28.9745678,31.9245422 28.9745678,28.5267315 Z" id="Path"></path>
                 <path d="M26.6646752,37.4517761 L17.1577289,37.4517761 L17.1577289,46.1801739 L26.2256777,46.1801739 C27.5898107,46.1411355 30.1074169,45.7139233 30.1074169,41.9375141 C30.1074169,37.4061176 26.6646752,37.4517761 26.6646752,37.4517761 Z" id="Path"></path>
                 <path d="M51.0025166,32.4173095 C45.9577289,32.4173095 45.2543018,37.4517852 45.2543018,37.4517852 L55.9825837,37.4517852 C55.9832225,37.4517852 56.0473043,32.4173095 51.0025166,32.4173095 Z" id="Path"></path>

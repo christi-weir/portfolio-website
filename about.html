@@ -19,7 +19,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="about">
   <header>
     <div>
       <a href="#">Christi Weir</a>
@@ -40,22 +40,24 @@
     </div>
     <div class="container">
       <div>
-        <picture class="my photo">
+        <div>
+        <picture>
           <source srcset="img/about me/portfolio_aboutmephoto@1x.jpg" media="(max-width:767px)">
-          <img src="img/about me/portfolio_aboutmephoto@2x.jpg" alt="Image">
+          <img class="my photo" src="img/about me/portfolio_aboutmephoto@2x.jpg" alt="Image">
         </picture>
-        <div class="row">
-          <div>
+      </div>
+      <div class="row">
+          <div class="column">
             <h2>My Story</h2>
             <p>
               I am a UX/UI designer with a focus on user-centric design. I have skills in creative problem-solving, active listening, and empathy. My background in Psychology gives me insight into human behavior and has motivated me to switch to the
               UX/UI field.</p>
             <a href="files/cv.pdf" download>Download my CV</a>
           </div>
+        <div class="column">
+          <h2>Skills and Tools</h2>
           <div>
-            <h2>Skills and Tools</h2>
-            <div class="row">
-              <div>
+            <div>
                 <h3>Relevant Skills</h3>
                 <ul>
                   <li>psychology</li>
@@ -64,6 +66,8 @@
                   <li>user-centric design</li>
                 </ul>
               </div>
+            </div>
+          </div>
               <div>
                 <h3>Tools I Use</h3>
                 <ul>
@@ -75,29 +79,32 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
   </main>
   <footer id="contact">
     <div class="container">
       <h2>Thank you for looking!</h2>
-      <p>If you want to learn more, have any feedback, or just want to say hi, you can reach me here.</p>
-        <a href="mailto:weir.christi@gmail.com" class="button contact">Let's Chat!</a>
+      <p>Want to learn more or just chat?</p>
+      <div>
+        <a href="mailto:weir.christi@gmail.com">
+          <source srcset=img/waving-hand.svg media="(max-width:767px)"</a>
+            <img class=say_hi src="img/waving-hand.svg"alt="image">
+              <div>
+              <button class= "button">Say Hi!</button>
+            </div>
+        </div>
       </div>
       <div class="social">
           <a href="https://www.linkedin.com/in/christi-weir-896b96107/" target="_blank">
-              <img src= "img/social_icons/linkedin.svg"   alt="image"></a>
+              <img class="social_icon" src= "img/social_icons/linkedin.svg"   alt="image"></a>
           <a href="https://www.instagram.com/cweir_film/" target="_blank">
-              <img src="img/social_icons/instagram.svg" alt="image"></a>
+              <img class="social_icon" src="img/social_icons/instagram.svg" alt="image"></a>
           <a href="https://www.behance.net/christiweir" target="_blank">
-              <img src="img/social_icons/behance-logo.svg"   alt="image"></a>
+              <img class="social_icon" src="img/social_icons/behance-logo.svg"   alt="image"></a>
           <a href="https://twitter.com/christi_weir" target="_blank">
-              <img src= "img/social_icons/twitter.svg"     alt="image"></a>
-      </div>
+              <img class="social_icon" src= "img/social_icons/twitter.svg"     alt="image"></a>
     </div>
     <div>
-      <p>Copyright Christi Weir 2021</p>
+      <p>© Christi Weir 2021</p>
     </div>
   </footer>
 
