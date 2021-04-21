@@ -4,7 +4,7 @@ Primary Color (white): #FFFFFF;
 Secondary Color (darkgrey): #262626;
 */
 header {
-  text-align: center;
+  text-align: unset;
   padding-top: 10px;
   padding-right: 5px;
   padding-bottom: 5px;
@@ -19,64 +19,8 @@ body {
   color: #4a4a4a;
   padding: 5px;
 }
-
-@media only screen and (min-width: 640px) {
-  header {
-    text-align: unset;
-    padding: 10px 0px;
-  }
-
-  nav {
-    width: auto;
-    float: right;
-  }
-}
-#about .row{
-  display: flex;
-}
-#about .column{
-  flex: 50%;
-  padding: 20px;
-}
-
-@media only screen and (min-width: 1024px) {
-  .row {
-    display: flex;
-  }
-
-  .column {
-    flex: 50%;
-    padding: 20px;
-  }
-}
-#about .row{
-  display: flex;
-}
-#about .column{
-  flex: 50%;
-  padding: 20px;
-}
-#about .my-photo {
-  display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 30%;
-}
-@media only screen and (min-width: 1440px) {
-  .row {
-    display: flex;
-  }
-
-  .column {
-    flex: 50%;
-    padding: 20px;
-  }
-}
-#about .my-photo {
-  display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 30%;
+* {
+  box-sizing: border-box;
 }
 h1, h2, h3, h4 {
   line-height: 1.4;
@@ -139,7 +83,11 @@ a:focus {
   opacity: 60%;
   background: #616161;
 }
-
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 .menu-link {
   color: #262626
 }
@@ -174,9 +122,14 @@ a:focus {
   text-align: center;
   font-size: 1em;
 }
-
+#goald .row{
+  padding-bottom: 40px;
+}
+#goald .container{
+  margin-left: auto;
+  margin-right: auto;
+}
 .logo {
-  align-items: center;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   max-width: 250px;
   font-size: 1.2em;
@@ -267,63 +220,8 @@ h2 {
   height: auto;
 }
 
-@media only screen and (min-width: 640px) {}
 
-.berlin {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
 
-@keyframes color-change {
-  from {
-    fill: #edc655;
-  }
-
-  to {
-    fill: #f76414;
-  }
-}
-
-.sun {
-  animation-duration: 4s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-.cloud-front {
-  animation-duration: 30s;
-  animation-name: cloud-move;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-
-  to {
-    transform: translate(100px, 48px);
-  }
-}
-
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
-}
 
 .image {
   position: relative;
@@ -415,4 +313,76 @@ h2 {
    margin-left: auto;
    margin-right: auto;
    width: 50%;
+}
+.main-image{
+  margin:auto;
+  width;100%;
+}
+/*==================================== MEDIA QUERIES */
+
+@media only screen and (min-width: 640px) {
+  header {
+  text-align: unset;
+  padding: 20px 0 13px;
+}
+  nav {
+   width: auto;
+   float: right;
+   margin-top: 4px;
+}
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+}
+.col-lg-1 {width: 8.33%;}
+.col-lg-2 {width: 16.66%;}
+.col-lg-3 {width: 25%;}
+.col-lg-4 {width: 33.33%;}
+.col-lg-5 {width: 41.66%;}
+.col-lg-6 {width: 50%;}
+.col-lg-7 {width: 58.33%;}
+.col-lg-8 {width: 66.66%;}
+.col-lg-9 {width: 75%;}
+.col-lg-10 {width: 83.33%;}
+.col-lg-11 {width: 91.66%;}
+.col-lg-12 {width: 100%;}
+}
+[class*="col-"] {
+  float: left;
+  padding: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#goald-icon {
+  width: 20%;
+  height: auto;
+}
+
+@media only screen and (min-width: 1440px) {
+}
+.col-xl-1 {width: 8.33%;}
+.col-xl-2 {width: 16.66%;}
+.col-xl-3 {width: 25%;}
+.col-xl-4 {width: 33.33%;}
+.col-xl-5 {width: 41.66%;}
+.col-xl-6 {width: 50%;}
+.col-xl-7 {width: 58.33%;}
+.col-xl-8 {width: 66.66%;}
+.col-xl-9 {width: 75%;}
+.col-xl-10 {width: 83.33%;}
+.col-xl-11 {width: 91.66%;}
+.col-xl-12 {width: 100%;}
+}
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
