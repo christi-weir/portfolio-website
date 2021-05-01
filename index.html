@@ -19,20 +19,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/15933f5810.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="home">
   <header>
     <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
       <a class="logo" href="#">Christi Weir</a>
       <nav>
         <ul class="navigation">
           <li><a class="menu-link" href="index.html">Work</a></li>
           <li><a class="menu-link" href="about.html">About</a></li>
           <li><a class="menu-link" href="#contact">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
         </ul>
       </nav>
     </div>
+  </div>
   </header>
   <main>
     <div id="hero">
@@ -127,6 +131,7 @@
       <p>© Christi Weir 2021</p>
     </div>
   </footer>
+  <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 
