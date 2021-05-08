@@ -9,7 +9,7 @@ header {
 }
 
 body {
-  background-color: #ffffff font-size: 16px;
+  background-color: white; font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
   font-family: 'Noto Sans JP', sans-serif;
@@ -183,7 +183,7 @@ nav>ul>li>a:hover, nav>ul>li>a:focus {
   right: 0;
   top: 2px;
   font-size: 20px;
-  padding-right: 0;,
+  padding-right: 0;
 }
 .navtoggle.responsive li  {
   display: block;
@@ -200,7 +200,7 @@ nav>ul>li>a:hover, nav>ul>li>a:focus {
   padding: 0 0 10px;
 }
 #hero {
-  background-color: #ffffff;
+  background-color: white;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -211,7 +211,7 @@ main {
 }
 
 footer {
-  background-color: #ffffff;
+  background-color: white;
   text-align: center;
   font-size: .8em;
   width: 100%;
@@ -234,7 +234,6 @@ h2 {
 
 .button:hover {
   color: #f6bd60;
-  text-decoration: bold;
 
 }
 
@@ -278,11 +277,7 @@ h2 {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity: 0.25s;
-}
-
-.image_overlay-blur {
-  backdrop-filter: blur(1px)
+  transition: 0.25s;
 }
 
 .image_overlay>* {
@@ -323,7 +318,7 @@ h2 {
 .say_hi {
   width: 80px;
   height: 80px;
-  align: center;
+
 }
 @keyframes wiggle {
     0% { transform: rotate(0deg); }
@@ -349,7 +344,7 @@ h2 {
 }
 .main-image{
   margin:auto;
-  width;100%;
+  width: 100%;
 }
 
 /*==================================== MEDIA QUERIES */
@@ -427,7 +422,7 @@ nav > ul {
 .col-xl-10 {width: 83.33%;}
 .col-xl-11 {width: 91.66%;}
 .col-xl-12 {width: 100%;}
-}
+
 [class*="col-"] {
   float: left;
   padding: 10px;
